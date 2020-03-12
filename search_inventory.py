@@ -75,9 +75,9 @@ while (count < total):
     json_data = json.loads(response.text)
     
     #previously i was able to pull just the 1st row but i need to iterate through them all
-    JIRA_summary = json_data['issues'][0]['fields']['summary']
-    JIRA_key = json_data['issues'][0]['key']
-    JIRA_status = json_data['issues'][0]['fields']['status']['name']
+    #JIRA_summary = json_data['issues'][0]['fields']['summary']
+    #JIRA_key = json_data['issues'][0]['key']
+    #JIRA_status = json_data['issues'][0]['fields']['status']['name']
     
     
     
